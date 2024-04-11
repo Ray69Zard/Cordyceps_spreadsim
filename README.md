@@ -4,15 +4,22 @@ Prereq:<br />
 2)pip install Pygame <br />
 3)pip install matplotlib <br />
 4)pip install numpy <br />
- PARAMETERS: these are all the parameters that you can change from code. Each change in any parameter can lead to drastic change in pandemic.
+ PARAMETERS: these are all the parameters that you can change from code. Each change in any parameter can lead to drastic change in pandemic.<br />
  o)number of people as *n_people* <br />
+ 
  o)size of one person as *size* <br />
+ 
  o)speed of one person as *speed* <br />
+
  o)infection radius as *infect_dis* <br />
+ 
  o)recovery time as *recover_time* <br />
+ 
  o)immune time as *immune_time* <br />
  (which is set to a very very large value as default because I am following SIR model i.e. person can't lose immunity after some time) <br />
+ 
  o)probability of catching infection as *prob_catch* <br />
+ 
  o)probability of dying as *prob_death* <br />
  (Actually people who die aren't removed but their color is changed to the color of the screen and they can't interact with other people, they just become invisible) <br />
 
